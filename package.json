@@ -1,0 +1,20 @@
+{
+  "name": "color-gradient-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "nodemon server",
+    "start-client": "npm start --prefix=front-end",
+    "start-dev": "concurrently \"npm run start-server\" \"npm run start-client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1",
+    "node-html-to-image": "^3.2.0"
+  }
+}

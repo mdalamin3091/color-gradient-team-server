@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const gradientScheme = mongoose.Schema({
+const gradientScheme = Schema({
   name: {
     type: String,
     default: "unnamed",

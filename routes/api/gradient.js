@@ -1,5 +1,3 @@
-//  In The name of Allah
-
 const express = require("express");
 const router = express.Router();
 const Gradient = require("../../models/gradientSchema");

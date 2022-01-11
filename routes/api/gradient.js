@@ -55,7 +55,7 @@ router.delete("/:id", async (req, res) => {
     await Gradient.findByIdAndDelete(req.params.id);
   } catch (error) {
     console.log(error.message);
-    res.sendStatus(200);
+    res.sendStatus(200); 
   }
 });
 
